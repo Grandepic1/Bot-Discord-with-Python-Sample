@@ -1,6 +1,7 @@
 # Discord Bot Project
+Projects still running
 
-Welcome to the **Discord Bot Project**, a Python-based bot designed to enhance your Discord server with a variety of powerful and user-friendly commands. This bot is built using the [Discord Python API]([https://discord.com/developers/docs/intro](https://discordpy.readthedocs.io/en/stable/api.html)), enabling seamless integration and customization.
+Welcome to the **Discord Bot Project**, a Python-based bot designed to enhance your Discord server with a variety of powerful and user-friendly commands. This bot is built using the [Discord Python API](https://discordpy.readthedocs.io/en/stable/api.html), enabling seamless integration and customization.
 
 ---
 
@@ -8,11 +9,11 @@ Welcome to the **Discord Bot Project**, a Python-based bot designed to enhance y
 
 This bot provides an extensive suite of commands organized into three distinct categories:
 
-### 1. Information Commands (`info`)
+### 1. Information Commands (`Info`)
 These commands provide server or user-related information to enhance your server's engagement and functionality.
 - **Examples:**
   - Display user information.
-  - Show server statistics.
+  - Show bot details.
   - Fetch role details.
 
 ### 2. Moderation Commands (`moderation`)
@@ -20,7 +21,7 @@ Aimed at server administrators, these commands help maintain order and manage th
 - **Examples:**
   - Kick or ban users.
   - Mute or unmute members.
-  - Clear chat messages in bulk.
+  - Lock server.
 
 ### 3. Owner Commands (`owner`)
 Restricted to the bot owner, these commands are designed for advanced bot management and debugging purposes.
@@ -35,19 +36,22 @@ Restricted to the bot owner, these commands are designed for advanced bot manage
 
 Follow the steps below to set up and run the bot in your server:
 
-### 1. Clone the Repository
+### 1. Create bot application
+To create discord bot and get token. You can follow [this tutorial](https://discordpy.readthedocs.io/en/stable/discord.html).
+
+### 2. Clone the Repository
 ```bash
 git clone https://github.com/yourusername/discord-bot.git
 cd discord-bot
 ```
 
-### 2. Install Dependencies
+### 3. Install Dependencies
 Ensure you have Python installed (version 3.8 or higher). Install the required packages using:
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Edit Environment Variables
+### 4. Edit Environment Variables
 Edit file .env based on your using:
 ```env
 TOKEN="put your bot id here"
@@ -55,7 +59,7 @@ PREFIX=!
 MUTE-ROLE=put your mute role here
 ```
 
-### 4. Run The Bot
+### 5. Run The Bot
 ```bash
 python main.py
 ```
