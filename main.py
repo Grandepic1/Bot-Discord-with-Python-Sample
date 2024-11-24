@@ -12,7 +12,7 @@ load_dotenv()
 bot = commands.Bot(
 	command_prefix=os.getenv("PREFIX"),
 	case_insensitive=True,
-	owner_ids=[613875082183311526,523095384541888532],
+	owner_ids=[put your discord id here],
 	intents=discord.Intents.all(),
 )
 
