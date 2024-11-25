@@ -41,8 +41,7 @@ To create discord bot and get token. You can follow [this tutorial](https://disc
 
 ### 2. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/discord-bot.git
-cd discord-bot
+git clone https://github.com/Grandepic1/Bot-Discord-with-Python-Sample.git
 ```
 
 ### 3. Install Dependencies
