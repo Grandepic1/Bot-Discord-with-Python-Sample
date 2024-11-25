@@ -1,5 +1,5 @@
 # Discord Bot Project
-Projects still running
+This project is still on update
 
 Welcome to the **Discord Bot Project**, a Python-based bot designed to enhance your Discord server with a variety of powerful and user-friendly commands. This bot is built using the [Discord Python API](https://discordpy.readthedocs.io/en/stable/api.html), enabling seamless integration and customization.
 
@@ -99,17 +99,10 @@ Learn more about the Discord API in the [official documentation](https://discord
 
 ---
 
-
-## License
-
-This project is open-source and licensed under the [MIT License](LICENSE). Feel free to use.
-
----
-
 ## Contact
 This project is still on running.
 If you have questions or feedback, feel free to reach out:
-- Discord: `grandepic1`
+- Discord: `grand_epic1`
 - Email: `revaldo652@gmail.com`
 
 ---
